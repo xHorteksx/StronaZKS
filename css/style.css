@@ -1,0 +1,10 @@
+.border-radius-0{
+    border-radius: 0;
+
+}
+.navbar-background{
+
+    background-image: url(../img/headder-cut.jpg);
+    height: 10vh;
+    position: sticky
+}
