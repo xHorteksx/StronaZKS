@@ -8,3 +8,8 @@
     height: 10vh;
     position: sticky
 }
+.kontakt-border{
+border: solid;
+border-color: brown;
+
+}
