@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
+<body style="background-image: url(img/workshop-pic.jpg) ; background-position: center;">
 	<div>
 		<script src="css/bootstrap/bootstrap.bundle.min.js"></script>
 	</div>
@@ -18,8 +18,9 @@
 		<nav class="navbar-disabled-color navbar-background navbar navbar-expand-lg">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">Navbar</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -53,19 +54,23 @@
 				</div>
 			</div>
 		</nav>
-	</header>	
-	<div class="container">
+	</header>
+	<div class="container" >
 		<div class="row mt-2">
 			<div class="col-lg-2">
 			</div>
-			<div class="col-lg-8">
+			<div class="col-lg-8 ">
 
-				<div class="card border-radius-0 p-2">
+				<div class="card border-radius-0 p-2" >
 					<div class="card-headder">
 						<h5>O nas</h5>
 					</div>
 					<div class="card-body">
-						Lorem ipsum
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</div>
 
 				</div>
@@ -82,7 +87,29 @@
 						<h5>Galeria</h5>
 					</div>
 					<div class="card-body">
-
+						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="..." class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="..." class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+									<img src="..." class="d-block w-100" alt="...">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button"
+								data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button"
+								data-bs-target="#carouselExampleControls" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -120,18 +147,17 @@
 					<div class="card-body">
 						<div class="kontakt-border">
 
-							<div class="row mt-2 border-1" style="border:solid ;">
-								<div class="col-xxl">Telefon</div>
-								<div class="col-xxl">694 933 568</div>
-								<div class="col-xxl"></div>
+							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
+								<div class="px-1">Telefon</div>
+								<div class="px-1">694 933 568</div>
 							</div>
-							<div>
-								<span>Adres</span>
-								<span>Chełm ul. Fabryczna 6</span>
+							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
+								<div class="px-1">Adres</div>
+								<div class="px-1">Chełm ul. Fabryczna 6</div>
 							</div>
-							<div>
-								<span>Email</span>
-								<span>kontak@kowalstwochelm.pl</span>
+							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1 mb-2">
+								<div class="px-1">Email</div>
+								<div class="px-1">kontak@kowalstwochelm.pl</div>
 							</div>
 
 						</div>
