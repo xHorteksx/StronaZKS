@@ -4,9 +4,13 @@
 }
 .navbar-background{
 
-    background-image: url(../img/headder-cut.jpg);
-    height: 10vh;
-    position: sticky
+/* background-image: url(../img/navbar.jpg); */
+background-color: rgba(0, 0, 0, 0.795);
+color: #ffc107;
+border-bottom: 6px solid;
+border-image: blue;
+border-color: brown;
+    
 }
 .kontakt-border{
 border: solid;
