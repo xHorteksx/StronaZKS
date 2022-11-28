@@ -3,7 +3,7 @@
 }
 .navbar-background {
 	/* background-image: url(../img/navbar.jpg); */
-	background-color: #ffffff96;
+	background-color: #ffffff85;
 	color: #ffc107;
 	border-bottom: 8px solid;
 	border-image: linear-gradient(
@@ -63,4 +63,20 @@
     align-items: center;
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.navbar-items-layout{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.sections-background{
+    background-color: #ffffff85;
+
+
 }
