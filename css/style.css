@@ -5,7 +5,7 @@
 	/* background-image: url(../img/navbar.jpg); */
 	background-color: #ffffff85;
 	color: #ffc107;
-	border-bottom: 8px solid;
+	/* border-bottom: 8px solid;
 	border-image: linear-gradient(
 		120deg,
 		rgba(8, 8, 8, 1) 28%,
@@ -14,7 +14,7 @@
 		rgba(242, 65, 0, 1) 53%,
 		rgba(0, 0, 0, 1) 68%
 	);
-	border-image-slice: 100;
+	border-image-slice: 100; */
 }
 .kontakt-border {
 	border: 8px solid;
@@ -84,4 +84,14 @@
 
 
 
+}
+
+.shadow-box-section{
+
+    
+    box-shadow: -1px 1px 2px 0px #ffc107;
+}
+.shadow-box-navbar{
+
+    box-shadow: 1px 4px 8px 2px #710707;
 }
