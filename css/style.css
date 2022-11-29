@@ -95,3 +95,8 @@
 
     box-shadow: 1px 4px 8px 2px #710707;
 }
+
+.navbar-hoover-color{
+    --bs-navbar-color: rgb(0 0 0 / 75%);
+    --bs-navbar-hover-color:#ffc107;
+}
