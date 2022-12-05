@@ -33,7 +33,7 @@
     color: #ffc107;
 	font-size: x-large;
 	font-weight: bold;
-	font-family: Bahnschrift;
+	font-family: " Helvetica Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 .sections-font-style{
-    font-family: Bahnschrift
+    font-family: " Helvetica Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 
 
 
