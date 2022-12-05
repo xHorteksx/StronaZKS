@@ -86,3 +86,24 @@
 .dropdown-item-color{
     color: #ffc107;
 }
+.paralax{
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.signature-display{
+
+	display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-start
+}
+.icon-offer-size{
+	height:"30px";
+	/* width:"30px"; */
+}
