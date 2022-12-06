@@ -14,8 +14,10 @@
 		"cSpell.language": "en,pl",
 		"eslint.enable": true,
 		"editor.rulers": [120],
-		"editor.formatOnSave": true
-
+		"editor.formatOnSave": true,
+		"recommendations": [
+			"ms-vscode.live-server"
+		]
 		
 	}
 }
