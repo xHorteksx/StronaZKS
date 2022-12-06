@@ -125,3 +125,8 @@ box-shadow: 0px 5px 3px -4px rgba(66, 68, 90, 1);
 body{
 	background-color: black;
 }
+
+.font-weight-heddings{
+
+	font-weight: 600
+}
