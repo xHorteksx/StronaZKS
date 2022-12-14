@@ -3,7 +3,7 @@
 }
 .navbar-background {
 	/* background-image: url(../img/navbar.jpg); */
-	background-color: #ffffff85;
+	background-color: #b0b8bfd9;
 	color: #ffc107;
 	/* border-bottom: 8px solid;
 	border-image: linear-gradient(
@@ -49,7 +49,7 @@
 }
 
 .sections-background{
-    background-color: #ffffff85;
+    background-color: #ffffffbb;
 }
 
 .sections-font-style{
@@ -148,5 +148,13 @@ body{
 }
 .logo-height{
 	height: 55px;
+
+}
+
+header{
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 2;
+    margin: -8px;
 
 }
