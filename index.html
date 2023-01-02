@@ -1,325 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ZKS Zaklad Kowalsko Ślusarski</title>
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>ZKS Zaklad Kowalsko Ślusarski</title>
-	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
-</head>
+	<body class="sections-font-style">
+		<img src="img/workshop-pic.jpg" class="paralax background" alt="" />
+		<div>
+			<script src="css/bootstrap/bootstrap.bundle.min.js"></script>
+		</div>
+		<header>
+			<nav
+				class="navbar-hoover-color navbar shadow-box-navbar navbar-font-style navbar-background navbar-expand-lg">
+				<div class="container-fluid navbar-items-layout">
+					<div class="navbar-brand" href="#">
+						<img
+							src="img/logo-navbar4.png"
+							alt=""
+							class="logo-height"
+							href="#onas" />
+					</div>
+					<div class="d-none">
+						Naprawa naczep Chełm, balustrady Chełm, kowalstwo Chełm, bramy
+						Chełm, spawanie aluminium Chełm, meble stalowe Chełm
+					</div>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown"
+						aria-controls="navbarNavDropdown"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-<body class="sections-font-style">
-	<img src="img/workshop-pic.jpg" class="paralax background" alt="" />
-	<div>
-		<script src="css/bootstrap/bootstrap.bundle.min.js"></script>
-	</div>
-	<header>
-		<nav class="navbar-hoover-color navbar shadow-box-navbar navbar-font-style navbar-background navbar-expand-lg">
-			<div class="container-fluid navbar-items-layout">
-				<div class="navbar-brand" href="#">
-					<img src="img/logo-navbar.png" alt="" class="logo-height" href="#onas" />
-				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<div class="row">
-						<div class="col-xl-12">
-							<ul class="navbar-nav">
-								<li class="nav-item">
-									<a class="nav-link" aria-current="page" href="#onas">O nas</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#galeria">Galeria</a>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="oferta" role="button"
-										data-bs-toggle="dropdown" aria-expanded="false">
-										Oferta
-									</a>
-									<ul class="dropdown-menu-style dropdown-menu">
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/gate-yellow.png" alt="" class="icon-dropdown-size" /><a
-													class="dropdown-item dropdown-item-color" href="#bramy">Bramy,
-													ogrodzenia, kraty, balustrady</a>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/loader-yellow.png" alt="" class="icon-dropdown-size" /><a
-													class="dropdown-item dropdown-item-color" href="#naprawa">Naprawa
-													maszyn, naczep, ciezarówek</a>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/welding-yellow.png" alt="" class="icon-dropdown-size" /><a
-													class="dropdown-item dropdown-item-color" href="#spawanie">Spawanie
-													aluminumu oraz metali kolorowych</a>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/steel-icon-yellow.png" alt=""
-													class="icon-dropdown-size" /><a
-													class="dropdown-item dropdown-item-color"
-													href="#konstrukcje">Konstrukcje stalowe i aluminiowe</a>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/rack-yellow.png" alt="" class="icon-dropdown-size" /><a
-													class="dropdown-item dropdown-item-color" href="#meble">Meble,regały
-													stalowe</a>
-											</div>
-										</li>
-										<li>
-											<div class="dropdown-items-display px-2">
-												<img src="img/anvil-yellow.png" alt="" class="icon-dropdown-size" />
-												<a class="dropdown-item dropdown-item-color" href="#projekty">
-													Projekty indywidualne</a>
-											</div>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#kontakt">Kontakt</a>
-								</li>
-							</ul>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<div class="row">
+							<div class="col-xl-12">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" aria-current="page" href="#onas"
+											>O nas</a
+										>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#galeria">Galeria</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="oferta"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false">
+											Oferta
+										</a>
+										<ul class="dropdown-menu-style dropdown-menu">
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/gate-yellow.png"
+														alt=""
+														class="icon-dropdown-size" /><a
+														class="dropdown-item dropdown-item-color"
+														href="#bramy"
+														>Bramy, ogrodzenia, kraty, balustrady</a
+													>
+												</div>
+											</li>
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/loader-yellow.png"
+														alt=""
+														class="icon-dropdown-size" /><a
+														class="dropdown-item dropdown-item-color"
+														href="#naprawa"
+														>Naprawa maszyn, naczep, ciezarówek</a
+													>
+												</div>
+											</li>
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/welding-yellow.png"
+														alt=""
+														class="icon-dropdown-size" /><a
+														class="dropdown-item dropdown-item-color"
+														href="#spawanie"
+														>Spawanie aluminumu oraz metali kolorowych</a
+													>
+												</div>
+											</li>
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/steel-icon-yellow.png"
+														alt=""
+														class="icon-dropdown-size" /><a
+														class="dropdown-item dropdown-item-color"
+														href="#konstrukcje"
+														>Konstrukcje stalowe i aluminiowe</a
+													>
+												</div>
+											</li>
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/rack-yellow.png"
+														alt=""
+														class="icon-dropdown-size" /><a
+														class="dropdown-item dropdown-item-color"
+														href="#meble"
+														>Meble,regały stalowe</a
+													>
+												</div>
+											</li>
+											<li>
+												<div class="dropdown-items-display px-2">
+													<img
+														src="img/anvil-yellow.png"
+														alt=""
+														class="icon-dropdown-size" />
+													<a
+														class="dropdown-item dropdown-item-color"
+														href="#projekty">
+														Projekty indywidualne</a
+													>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#kontakt">Kontakt</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</nav>
-	</header>
-	<!-- <div class="row" style="height: 75px;">
+			</nav>
+		</header>
+		<!-- <div class="row" style="height: 75px;">
 
 	</div> -->
-	<div class="container">
-		<div id="onas" class="row mt-2 scroll-margin-top">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="shadow-box-section card border-radius-0 p-2 sections-background">
-					<div class="card-headder">
-						<h4>O nas</h4>
-					</div>
-					<div class="card-body">
-						<div>
-							Od ponad 20 lat profesjonalnie zajmujemy się wytarzaniem oraz
-							obróbka szerokiej gamy stalowych oraz albuminowych elementów dla
-							klienta indywidualnego jak i dla przemysłu. Większość
-							wytwarzanych rzeczy powstaje o indywidualne projekty oraz
-							wymagania inwestora. Nasza oferta skierowana jest również do
-							przemysłu, jesteśmy w stanie wykonać rożnego rodzaju konstrukcje
-							stalowe wg. projektu inwestora. Zajmujemy się spawaniem,
-							aluminium , metali kolorowych oraz stopów metali. Spawamy i
-							naprawiamy stalowe i aluminiowe naczepy, sprzęt budowlany oraz
-							inne ciężkie maszyny. Swoje wieloletnie doświadczenie przekuwamy
-							zapewniając Państwu najwyższa jakość i oferując szeroka gamę
-							usług.
+		<div class="container">
+			<div id="onas" class="row mt-2 scroll-margin-top">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div
+						class="shadow-box-section card border-radius-0 p-2 sections-background">
+						<div class="card-headder">
+							<h4>O nas</h4>
+						</div>
+						<div class="card-body">
+							<div>
+								Od ponad 20 lat profesjonalnie zajmujemy się wytarzaniem i
+								obróbką szerokiej gamy stalowych oraz albuminowych elementów,
+								zarówno dla klienta indywidualnego, jak i dla biznesu. Większość
+								realizowanych prac powstaje na podstawie indywidualnych
+								projektów oraz oczekiwań inwestora. Nasza ofertaskierowana jest
+								również do przemysłu, wykonujemy rożnego rodzaju konstrukcje
+								stalowe według projektu inwestora. Zajmujemy się
+								spawaniemaluminium, metali kolorowych oraz stopów metali.
+								Naprawiamy stalowe i aluminiowe naczepy, sprzęt budowlany oraz
+								inne ciężkie maszyny. Swoje wieloletnie doświadczenie przekuwamy
+								w najwyższą jakość i oferując Państwu szeroka gamę usług.
+								Działamy gównie na terenie Chełma oraz okolic, podejmujemy się
+								również realizacji na terenie całego województwa Lubelskiego.
 
-							<div class="p-1 signature-display">
-								Mariusz Małek
+								<div class="p-1 signature-display">Mariusz Małek</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-2"></div>
 			</div>
-			<div class="col-lg-2"></div>
-		</div>
-		<div id="galeria" class="row mt-2 scroll-margin-top">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="shadow-box-section card border-radius-0 p-2 sections-background">
-					<div class="card-headder">
-						<h4>Galeria</h4>
-					</div>
-					<div class="card-body">
-						<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="img/brama-klasyczna.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="img/przeslo-klasyczne.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="img/brama-warsztat.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="img/szkic2.jpg" class="d-block w-100" alt="..." />
-								</div>
-								<div class="carousel-item">
-									<img src="img/przeslo-nowoczesne.jpg" class="d-block w-100" alt="..." />
-								</div>
-							</div>
-							<button class="carousel-control-prev" type="button"
-								data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</button>
-							<button class="carousel-control-next" type="button"
-								data-bs-target="#carouselExampleControls" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</button>
+			<div id="galeria" class="row mt-2 scroll-margin-top">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div
+						class="shadow-box-section card border-radius-0 p-2 sections-background">
+						<div class="card-headder">
+							<h4>Galeria</h4>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-2"></div>
-		</div>
-		<div class="row mt-2">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="shadow-box-section card border-radius-0 p-2 sections-background">
-					<div class="card-headder font-weight-heddings">
-						<h3 id="oferta" class="font-weight-heddings">Oferta</h3>
-					</div>
-					<div class="card-body">
-						<div class="container-fluid">
-							<div id="bramy" class="row scroll-margin-top scroll-margin-top">
-								<div class="col-12">
-									<img src="img/gate.png" class="icon-offer-size" alt="" />
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">
-											Bramy, ogrodzenia, kraty, balustrady
-										</h5>
-										<div>
-											Wykonujemy wg. indywidualnych projekow kompletne
-											ogrodzenia, bramy skrzydłowe, przesówne, barierki,
-											balustrady z dowlnego materiału - stal, stal nierdzewna,
-											aluminumu, szkło, drewno.
-										</div>
+						<div class="card-body">
+							<div
+								id="carouselExampleControls"
+								class="carousel slide"
+								data-bs-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="img/brama-klasyczna.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="img/przeslo-klasyczne.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="img/brama-warsztat.jpg"
+											class="d-block w-100"
+											alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img src="img/szkic2.jpg" class="d-block w-100" alt="..." />
+									</div>
+									<div class="carousel-item">
+										<img
+											src="img/przeslo-nowoczesne.jpg"
+											class="d-block w-100"
+											alt="..." />
 									</div>
 								</div>
-							</div>
-							<div class="row scroll-margin-top">
-								<div class="col-12"></div>
-							</div>
-							<div id="naprawa" class="row scroll-margin-top">
-								<div class="col-12">
-									<img src="img/loader.png" class="icon-offer-size" alt="" />
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">
-											Naprawa maszyn, naczep, ciezarówek
-										</h5>
-										<div>
-											Zajmujemy się spawaniem oraz naprawą stalowych i
-											aluminowych konstrukcji, naczep, cystern, ciezarówek
-											oraz maszyn budowlanych.
-										</div>
-									</div>
-								</div>
-							</div>
-							<div id="spawanie" class="row scroll-margin-top">
-								<div class="col-12">
-									<img src="img/welding.png" class="icon-offer-size" alt="" />
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">
-											Spawanie aluminumu oraz metali kolorowych
-										</h5>
-										<div>
-											Spawamy aluminum, stal nierdzewną, metale kolorowe oraz
-											nietypowe stopy metali
-										</div>
-									</div>
-								</div>
-							</div>
-							<div id="konstrukcje" class="row scroll-margin-top">
-								<div class="col-12">
-									<img src="img/steel-icon.png" class="icon-offer-size" alt="" />
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">
-											Montaż konstrukcji stalowych i aluminiowych
-										</h5>
-										<div>
-											Wykonujemy stalowe, aluminowe konstrukcje
-											wg.indywidualnego projektu klienta. Jesteśmy otwarci na
-											dłuższa współprace przy wiekszych projektach.
-										</div>
-									</div>
-								</div>
-							</div>
-							<div id="meble" class="row scroll-margin-top">
-								<div class="col-12">
-									<img src="img/rack.png" class="icon-offer-size" alt="" />
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">Meble,regały stalowe</h5>
-										<div>
-											Produkujemy indywidualne stalowe i aluminiowe zabudowy
-											meblowe, regały, stoły, krzesła. Nasze realizacje
-											dostowujemy pod okreslone wymagania klienta.
-										</div>
-									</div>
-									<img src="img/anvil.png" class="icon-offer-size" alt="" />
-								</div>
-							</div>
-							<div id="projekty" class="row scroll-margin-top">
-								<div class="col-12">
-									<div class="shadow-box-offer mb-5">
-										<h5 class="font-weight-heddings">
-											Wykonywanie projektów indywidualnych ze stali,
-											aluminium, metaloplastyka
-										</h5>
-										<div>
-											Swoje usuługi również kierujemy do klinetow szukajacych
-											wykonawcy dla bardzo niestandardowych projektow
-											metaloplastycznych. Jestsmy w stanie doradzic oraz
-											wykonac Państwa najśmielsze projekty i pomysły z
-											dowolniej dziedziny i o dowolnym przeznaczeniu.
-										</div>
-									</div>
-								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselExampleControls"
+									data-bs-slide="prev">
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselExampleControls"
+									data-bs-slide="next">
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg-2"></div>
 			</div>
-			<div class="col-lg-2"></div>
-		</div>
-		<div id="kontakt" class="row mt-2 scroll-margin-top">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="shadow-box-section card border-radius-0 p-2 sections-background">
-					<div class="card-headder">
-						<h4 id="konrakt">Kontakt</h4>
-					</div>
-					<div class="card-body p-0">
-						<div>
-							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
-								<div class="px-1 kontakt-font-weight">Telefon:</div>
-								<a href="tel:694933568" class="px-1">694 933 568</a>
-							</div>
-							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
-								<div class="px-1 kontakt-font-weight">Adres:</div>
-								<div class="px-1">Chełm ul. Fabryczna 6</div>
-							</div>
-							<div class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1 mb-2">
-								<div class="px-1 kontakt-font-weight">Email:</div>
-								<a mailto:kontak@kowalstwochelm.pl class="px-1">kontak@kowalstwochelm.pl</a>
+			<div class="row mt-2">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div
+						class="shadow-box-section card border-radius-0 p-2 sections-background">
+						<div class="card-headder font-weight-heddings">
+							<h3 id="oferta" class="font-weight-heddings">Oferta</h3>
+						</div>
+						<div class="card-body">
+							<div class="container-fluid">
+								<div id="bramy" class="row scroll-margin-top scroll-margin-top">
+									<div class="col-12">
+										<img src="img/gate.png" class="icon-offer-size" alt="ogrodzenia Chełm" />
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">
+												Bramy, ogrodzenia, kraty, balustrady
+											</h5>
+											<div>
+												Wykonujemy według indywidualnych, oryginalnych projektów
+												kompletne ogrodzenia - bramy skrzydłowe i przesuwne,
+												barierki, balustrady z dowolnego materiału -ze stali,
+												stali nierdzewnej, aluminium, szkła czy drewna.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row scroll-margin-top">
+									<div class="col-12"></div>
+								</div>
+								<div id="naprawa" class="row scroll-margin-top">
+									<div class="col-12">
+										<img src="img/loader.png" class="icon-offer-size" alt="naprawa naczep Chełm" />
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">
+												Naprawa maszyn, naczep, ciezarówek
+											</h5>
+											<div>
+												Zajmujemy się spawaniem oraz naprawą stalowych i
+												aluminiowych konstrukcji, naczep, cystern, ciężarówek
+												oraz maszyn budowlanych.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="spawanie" class="row scroll-margin-top">
+									<div class="col-12">
+										<img src="img/welding.png" class="icon-offer-size" alt="spawanie aluminium Chełm" />
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">
+												Spawanie aluminumu oraz metali kolorowych
+											</h5>
+											<div>
+												Spawamy aluminium, stal nierdzewną, metale kolorowe oraz
+												nietypowe stopy metali.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="konstrukcje" class="row scroll-margin-top">
+									<div class="col-12">
+										<img
+											src="img/steel-icon.png"
+											class="icon-offer-size"
+											alt="kostrukcje stalowe Chełm" />
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">
+												Montaż konstrukcji stalowych i aluminiowych
+											</h5>
+											<div>
+												Wykonujemy stalowe, aluminiowe konstrukcje według
+												indywidualnego projektu klienta. Jesteśmy otwarci na
+												dłuższą współpracę przy większych projektach.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="meble" class="row scroll-margin-top">
+									<div class="col-12">
+										<img src="img/rack.png" class="icon-offer-size" alt="meble stalowe Chełm" />
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">Meble,regały stalowe</h5>
+											<div>
+												Produkujemy indywidualne stalowe i aluminiowe zabudowy
+												meblowe - regały, stoły, krzesła. Nasze realizacje
+												dostosujemy pod określone wymagania klienta.
+											</div>
+										</div>
+										<img src="img/anvil.png" class="icon-offer-size" alt="kowalstwo artystyczne Chełm" />
+									</div>
+								</div>
+								<div id="projekty" class="row scroll-margin-top">
+									<div class="col-12">
+										<div class="shadow-box-offer mb-5">
+											<h5 class="font-weight-heddings">
+												Wykonywanie projektów indywidualnych ze stali,
+												aluminium, metaloplastyka
+											</h5>
+											<div>
+												Swoją ofertę kierujemy także do klientów szukających
+												wykonawcy dla bardzo niestandardowych projektów
+												metaloplastycznych - począwszy od doradztwa, przez
+												wsparcie w wykonaniu projektu, do kompleksowej
+												realizacji. Zrealizujemy Państwa najbardziej oryginalne
+												pomysły. Zapraszamy do kontaktu.
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<section class="center-map">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10013.824771755075!2d23.5394646!3d51.1369381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8167a736089fec7a!2sZKS%20Zak%C5%82ad%20Kowalsko%20%C5%9Alusarski%20Mariusz%20Ma%C5%82ek!5e0!3m2!1spl!2spl!4v1671493160130!5m2!1spl!2spl"
-							width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade">
-						</iframe>
-					</section>
 				</div>
+				<div class="col-lg-2"></div>
 			</div>
-			<div class="col-lg-2"></div>
+			<div id="kontakt" class="row mt-2 scroll-margin-top">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div
+						class="shadow-box-section card border-radius-0 p-2 sections-background">
+						<div class="card-headder">
+							<h4 id="konrakt">Kontakt</h4>
+						</div>
+						<div class="card-body p-0">
+							<div>
+								<div
+									class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
+									<div class="px-1 kontakt-font-weight">Nazwa firmy:</div>
+									<span  class="px-1"
+										>ZKS Zakład Kowalsko Ślusarski Mariusz Małek</span
+									>
+								</div>
+								<div
+									class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
+									<div class="px-1 kontakt-font-weight">Telefon:</div>
+									<a href="tel:602525170" class="px-1">602 525 170</a>
+								</div>
+								<div
+									class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1">
+									<div class="px-1 kontakt-font-weight">Adres:</div>
+									<div class="px-1">22-10 Chełm ul. Fabryczna 6</div>
+								</div>
+								<div
+									class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1 mb-2">
+									<div class="px-1 kontakt-font-weight">Email:</div>
+									<a mailto:zksmariuszmalek@wp.pl class="px-1"
+										>zksmariuszmalek@wp.pl</a
+									>
+								</div>
+								<div
+									class="mt-2 border-1 d-flex justify-content-start flex-wrap px-1 mb-2">
+									<div class="px-1 kontakt-font-weight">NIP:</div>
+									<span class="px-1">5631484493</span>
+								</div>
+							</div>
+						</div>
+						<section class="center-map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10013.824771755075!2d23.5394646!3d51.1369381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8167a736089fec7a!2sZKS%20Zak%C5%82ad%20Kowalsko%20%C5%9Alusarski%20Mariusz%20Ma%C5%82ek!5e0!3m2!1spl!2spl!4v1671493160130!5m2!1spl!2spl"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade">
+							</iframe>
+						</section>
+					</div>
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
 		</div>
-	</div>
-	<!--  container div -->
-</body>
-
+		<!--  container div -->
+	</body>
 </html>
