@@ -167,4 +167,23 @@ header{
 .scroll-margin-top{
 scroll-margin-top: 100px;
 
+
+
+}
+
+.footer-settings{
+	color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	font-size: small;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer-text-border{
+	border-left: 1px solid
 }
