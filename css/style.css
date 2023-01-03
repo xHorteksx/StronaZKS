@@ -163,14 +163,9 @@ header{
 	display: flex;
     justify-content: center;
 }
-
 .scroll-margin-top{
 scroll-margin-top: 100px;
-
-
-
 }
-
 .footer-settings{
 	color: white;
     position: relative;
